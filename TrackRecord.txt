@@ -1,3 +1,6 @@
 8/3/2025
 Started with this project that to clone Amazon E-commerce page. imported the assets from the browser and started with the header section
 and completed with the corresponding CSS too(takes almost 7hours)
+
+9/3/25
+started with the cards and the slider section in our application and added somewhere responsiveness and added new JS file for the slider in our page
