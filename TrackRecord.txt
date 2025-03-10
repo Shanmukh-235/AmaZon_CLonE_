@@ -4,3 +4,6 @@ and completed with the corresponding CSS too(takes almost 7hours)
 
 9/3/25
 started with the cards and the slider section in our application and added somewhere responsiveness and added new JS file for the slider in our page
+
+10/3/25
+Added some more sections in html and css and created some what responsiveness

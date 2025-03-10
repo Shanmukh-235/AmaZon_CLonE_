@@ -790,3 +790,122 @@ boxs {
     display: flex;
     justify-content: center;
 }
+
+boxButton div div a div img {
+    height: 100%;
+}
+
+.hr_color {
+    opacity: 0;
+}
+
+.box2 {
+    background-color: white;
+    color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 10px 10px 10px;
+}
+
+.box2 > div > div:first-child {
+    height: 40px;
+    padding: 20px 20px 0px 10px;
+}
+
+@media (max-width: 768px) {
+    .box2 > div > div:first-child {
+        height: 50px;
+        padding: 10px 20px 10px 10px;
+    }
+
+    .box2 > div > div:first-child h2 {
+        font-size: 1.3rem;
+        line-height: -10px;
+        line-height-step: 10px;
+    }
+}
+
+@media (max-width: 425px) {
+    .box2 > div > div:first-child {
+        height: 50px;
+        padding: 10px 20px 10px 10px;
+    }
+
+    .box2 > div > div:first-child h2 {
+        font-size: 1.2rem;
+        line-height: -10px;
+        line-height-step: 10px;
+    }
+}
+
+.box2 h2 {
+    font-size: 21px;
+    display: inline;
+    line-height: 1em;
+    margin: 0;
+}
+
+.box2 div span {
+    padding-left: 20px;
+    color: #007185;
+}
+
+.blockbuster_deals {
+    height: 360px;
+}
+
+.blockbuster_deals > div > div:last-child {
+    width: 100%;
+    display: flex;
+    height: 290px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+.blockbuster_deals > div > div:last-child::-webkit-scrollbar {
+    background-color: rgb(255, 255, 255);
+    height: 10px;
+    border-radius: 50px;
+}
+
+.blockbuster_deals > div > div:last-child::-webkit-scrollbar-button {
+    display: none;
+}
+
+.blockbuster_deals > div > div:last-child::-webkit-scrollbar-thumb {
+    background-color: rgb(183, 183, 183);
+    border-radius: 50px;
+}
+
+.blockbuster_deals a img {
+    height: 200px;
+    width: 200px;
+    margin: 0 10px 0px 10px;
+    padding-bottom: 8px;
+    padding: 0 40px;
+}
+
+.blockbuster_deals > div > div > div {
+    width: 290px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.blockbuster_deals div button {
+    color: white;
+    background-color: #cc0c39;
+    border: 1px solid #cc0c39;
+    border-radius: 2px;
+    padding: 5px 8px;
+}
+
+.blockbuster_deals > div > div > div > div > div:first-child > span:last-child {
+    color: red;
+    font-weight: bold;
+    padding-left: 5px;
+}
