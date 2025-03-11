@@ -909,3 +909,169 @@ boxButton div div a div img {
     font-weight: bold;
     padding-left: 5px;
 }
+.blockbuster_deals > div > div > div > div > div:last-child > span {
+    color: black;
+}
+
+.minimum_50 {
+    height: 260px;
+}
+
+.minimum_50 > div > div:last-child {
+    width: 100%;
+    display: flex;
+    height: 190px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    position: relative;
+}
+
+.minimum_50 > div > div:last-child > div {
+    background-color: white;
+
+}
+
+.minimum_50 > div > div:last-child::-webkit-scrollbar {
+    background-color: rgb(255, 255, 255);
+    height: 10px;
+    border-radius: 50px;
+}
+
+.minimum_50 > div > div:last-child::-webkit-scrollbar-button {
+    display: none;
+}
+
+.minimum_50 > div > div:last-child::-webkit-scrollbar-thumb {
+    background-color: rgb(183, 183, 183);
+    border-radius: 50px;
+}
+
+.minimum_50 a img {
+    height: 170px;
+    margin: 0 10px 10px 10px;
+}
+
+.flight_tickets {
+    margin: 10px;
+    padding: 15px 15px 0 15px;
+}
+
+.flight_tickets a img {
+    width: 100%;
+}
+
+.mobile_acc {
+    height: 250px;
+}
+
+.minimum_classy a img {
+    padding: 0 30px;
+}
+
+.sixer_img a {
+    display: flex;
+    justify-content: center;
+}
+
+.sixer_img img {
+    width: 80%;
+}
+
+.amazon_live {
+    height: 330px;
+}
+
+.amazon_live > div > div:last-child {
+    width: 100%;
+    display: flex;
+    height: 250px;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    margin: 5px;
+}
+.amazon_live > div > div:last-child::-webkit-scrollbar {
+    background-color: rgb(255, 255, 255);
+    height: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.amazon_live > div > div:last-child::-webkit-scrollbar-button {
+    display: none;
+}
+
+.amazon_live > div > div:last-child::-webkit-scrollbar-thumb {
+    background-color: rgb(183, 183, 183);
+    border-radius: 50px;
+}
+
+.amazon_live > div > div:last-child > div:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.amazon_live > div > div:last-child > div:first-child > video {
+    margin-right: 10px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+@media (max-width: 768px) {
+    .amazon_live > div > div:last-child > div:first-child > video {
+        width: 240px;
+    }
+    .mini_slide-live #slideButton-l{
+        display: none;
+    }
+}
+
+.amazon_live > div > div:last-child > div:last-child {
+    width: 100%;
+    display: flex;
+    height: 250px;
+}
+.amazon_live > div > div:last-child > div:last-child::-webkit-scrollbar {
+    background-color: rgb(255, 255, 255);
+    height: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.amazon_live > div > div:last-child > div:last-child::-webkit-scrollbar-button {
+    display: none;
+}
+
+.amazon_live > div > div:last-child > div:last-child::-webkit-scrollbar-thumb {
+    background-color: rgb(183, 183, 183);
+    border-radius: 50px;
+}
+
+@media (min-width: 768px) {
+    .amazon_live > div > div:last-child > div:last-child {
+        overflow-y: hidden;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+    }
+}
+
+.amazon_live a img {
+    height: 100px;
+    width: 80px;
+    margin: 0 10px 0px 10px;
+    padding-bottom: 8px;
+    padding: 0 40px;
+    margin-right: 60px;
+}
+
+.amazon_live > div > div > div > div {
+    width: 180px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+}

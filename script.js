@@ -24,3 +24,39 @@ buttonSlideB.forEach((button) => {
 		imgsBoxB.scrollBy({ left: scrollImg, behavior: "smooth" });
 	});
 });
+let imgsBoxL = document.querySelector(".mini_slide-live");
+let buttonSlideL = document.querySelectorAll("#slideButton-l");
+buttonSlideL.forEach((button) => {
+	button.addEventListener("click", () => {
+		const direction = button.className == "left_img_button" ? -1 : 1;
+		const scrollImg = direction * (imgsBoxL.clientWidth - 150);
+		imgsBoxL.scrollBy({ left: scrollImg, behavior: "smooth" });
+	});
+});
+
+let imgsBoxS;
+window.addEventListener("mousedown", (e) => {
+	let flag =
+		e.target.offsetParent.className === "right_img_button" ||
+		e.target.offsetParent.className === "left_img_button";
+	imgsBoxS = e.target.offsetParent.className;
+	console.log(imgsBoxS);
+	if (flag) {
+		imgsBoxS = e.target.offsetParent.offsetParent.className;
+		console.log(imgsBoxS);
+	}
+	if (`${imgsBoxS}` == "") {
+		console.log("if condition block")
+		return;
+	}
+	let imgsBoxSItom = document.querySelector(`.${imgsBoxS}`);
+	let buttonSlideS = document.querySelectorAll(`.${imgsBoxS} #slideButton-s`);
+	console.log(imgsBoxSItom);
+	buttonSlideS.forEach((button) => {
+		button.addEventListener("click", () => {
+			const direction = button.className == "left_img_button" ? -1 : 1;
+			const scrollImg = direction * (imgs[0].clientWidth - 150);
+			imgsBoxSItom.scrollBy({ left: scrollImg, behavior: "smooth" });
+		});
+	});
+});
