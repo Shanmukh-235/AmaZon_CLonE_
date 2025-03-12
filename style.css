@@ -37,7 +37,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .sticky {
-    background-color: #1f2833;
+    background-color: #131921;
     height: 3em;
     padding: .5em 1.2em .5em .5em;
     display: flex;
@@ -814,7 +814,7 @@ img.last:hover {
 
 @media (max-width: 768px) {
     .box2 > div > div:first-child {
-        height: 50px;
+        height: 70px;
         padding: 10px 20px 10px 10px;
     }
 
@@ -851,7 +851,7 @@ img.last:hover {
 }
 
 .blockbuster_deals {
-    height: 360px;
+    height: 380px;
 }
 
 .blockbuster_deals > div > div:last-child {
@@ -1266,11 +1266,11 @@ img.last:hover {
 .footer-main {
     width: 100%;
     height: 520px;
-    background-color: black;
+    background-color: #232F3E;
 }
 
 .footer-main-hidden-two {
-    background-color: #222f3d;
+    background-color: #232F3E;
     padding: 1em 2em 1em 0;
     margin-top: 1em;
     display: flex;
@@ -1387,7 +1387,7 @@ hr.line {
 .footer-copyright {
     width: 100%;
     height: 14em;
-    background-color: #010d21;
+    background-color: #131A22;
 }
 
 .lang-singin {
