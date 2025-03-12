@@ -10,3 +10,6 @@ Added some more sections in html and css and created some what responsiveness
 
 11/3/25
 Added some more sections in html and css and added js files here and optimized the code
+
+12/3/25
+completed and optimized the code completely. within 2 days, it was ready to host
