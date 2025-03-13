@@ -137,7 +137,6 @@ body::-webkit-scrollbar-thumb {
 .nav-search:hover {
     border: 3px solid rgb(239, 189, 40);
     border-radius: 10px;
-    /* box-shadow: 0px 0px 10px rgb(183, 156, 107); */
 }
 
 .nav-search label {
@@ -500,7 +499,6 @@ img.last:hover {
     position: absolute;
     background-color: transparent;
     color: black;
-    /* box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.594); */
     height: 8vw;
     width: 3vw;
     border-radius: 4px;
@@ -534,18 +532,15 @@ img.last:hover {
     position: sticky;
     background-color:transparent;
     color: black;
-    /* box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.594); */
     height: 5vw;
     width: 3vw;
     height: 2rem;
     width: 1rem;
     border-radius: 3px;
-    /* margin: 10px; */
     display: flex;
     justify-content: center;
     align-items: center;
     top: 60px;
-    /* bottom: 2rem; */
     font-size: 1.75rem;
     padding: 10px;
 }
@@ -581,7 +576,6 @@ img.last:hover {
 
 @media (max-width: 1501px) {
     #slideButton i{
-        /* font-size: 15px; */
         font-size: 1.5rem;
     }
 }
@@ -593,7 +587,6 @@ img.last:hover {
     }
 
     #slideButton i, #slideButton-s i, #slideButton-b i{
-        /* font-size: 15px; */
         font-size: .95rem;
     }
     #slideButton-s, #slideButton-b{
@@ -1247,7 +1240,6 @@ img.last:hover {
         margin: 0;
     }
 }
-
 
 @media (min-width:1025px) {
     .footer .back-to-topHidden2 {
