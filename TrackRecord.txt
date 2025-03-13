@@ -13,3 +13,6 @@ Added some more sections in html and css and added js files here and optimized t
 
 12/3/25
 completed and optimized the code completely. within 2 days, it was ready to host
+
+13/3/25
+Now it is ready to use
